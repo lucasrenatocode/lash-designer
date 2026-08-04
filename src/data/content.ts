@@ -5,7 +5,7 @@ import luxo from '../assets/images/luxo.jpeg'
 import arabe from '../assets/images/arabe.jpeg'
 import fox from '../assets/images/fox.jpeg'
 import megaBrasileiro from '../assets/images/mega-brasileiro.jpeg'
-import megaEgipcio from '../assets/images/mega-egipcio.jpeg'
+/*import megaEgipcio from '../assets/images/mega-egipcio.jpeg'*/
 import megaFox from '../assets/images/mega-fox.jpeg'
 import megaArabe from '../assets/images/mega-arabe.jpeg'
 
@@ -31,7 +31,7 @@ export const SERVICES: LashService[] = [
     description:
       'Técnica clássica que proporciona cílios cheios e marcantes, respeitando a estrutura dos fios naturais para um resultado duradouro e harmonioso.',
     benefits: ['Resultado cheio e natural', 'Respeita os fios naturais', 'Efeito duradouro'],
-    applicationPrice: 65,
+    applicationPrice: 70,
     maintenancePrice: 50,
     durationLabel: '2:30h a 3h',
     image: brasileiro,
@@ -42,7 +42,7 @@ export const SERVICES: LashService[] = [
     description:
       'Olhar marcante e delineado, inspirado na beleza egípcia. Cílios com efeito dramático e alongado, valorizando o contorno dos olhos.',
     benefits: ['Efeito dramático', 'Alongamento elegante', 'Valoriza o contorno dos olhos'],
-    applicationPrice: 65,
+    applicationPrice: 70,
     maintenancePrice: 50,
     durationLabel: '2:30h a 3h',
     image: egipcio,
@@ -54,7 +54,7 @@ export const SERVICES: LashService[] = [
       'A sofisticação em cada fio. Aplicação delicada e precisa com acabamento premium que entrega naturalidade e elegância ao mesmo tempo.',
     benefits: ['Acabamento premium', 'Aplicação delicada', 'Naturalidade e elegância'],
     applicationPrice: 70,
-    maintenancePrice: 50,
+    maintenancePrice: 55,
     durationLabel: '2:30h a 3h',
     image: luxo,
   },
@@ -64,8 +64,8 @@ export const SERVICES: LashService[] = [
     description:
       'Técnica de volume intenso com abertura no centro, criando um olhar profundo e sedutor. Perfeito para quem deseja um resultado dramático.',
     benefits: ['Abertura central marcante', 'Olhar profundo e sedutor', 'Resultado dramático'],
-    applicationPrice: 70,
-    maintenancePrice: 50,
+    applicationPrice: 75,
+    maintenancePrice: 55,
     durationLabel: '2h30 a 3h',
     image: arabe,
   },
@@ -75,8 +75,8 @@ export const SERVICES: LashService[] = [
     description:
       'Efeito olho de raposa com concentração de volume na ponta externa, criando um olhar elevado, sensual e moderno.',
     benefits: ['Efeito "olho de raposa"', 'Olhar alongado e elevado', 'Tendência moderna'],
-    applicationPrice: 75,
-    maintenancePrice: 60,
+    applicationPrice: 85,
+    maintenancePrice: 65,
     durationLabel: '2h30 a 3h',
     featured: true,
     image: fox,
@@ -87,12 +87,12 @@ export const SERVICES: LashService[] = [
     description:
       'O brasileiro levado ao máximo. Volume abundante e denso para um olhar impactante, com acabamento impecável fio a fio.',
     benefits: ['Volume máximo', 'Acabamento fio a fio', 'Olhar impactante'],
-    applicationPrice: 70,
-    maintenancePrice: 60,
+    applicationPrice: 80,
+    maintenancePrice: 65,
     durationLabel: '3h a 4h:30h',
     image: megaBrasileiro,
   },
-  {
+  /*{ ////////////////ESSE CARD DESATIVADOO TEMPORARIAMENTE//////////////
     id: 'volume-mega-egipcio',
     name: 'Volume Mega Egípcio',
     description:
@@ -102,15 +102,15 @@ export const SERVICES: LashService[] = [
     maintenancePrice: 65,
     durationLabel: '3h a 4h:30',
     image: megaEgipcio,
-  },
+  },*/
   {
     id: 'volume-mega-fox',
     name: 'Volume Mega Fox',
     description:
       'A versão mais intensa do fox. Volume máximo na ponta externa para um olhar arrasador, alongado e cheio de personalidade.',
     benefits: ['Volume máximo na ponta externa', 'Olhar arrasador', 'Personalidade única'],
-    applicationPrice: 90,
-    maintenancePrice: 70,
+    applicationPrice: 100,
+    maintenancePrice: 75,
     durationLabel: '3h a 5h',
     image: megaFox,
   },
@@ -120,7 +120,7 @@ export const SERVICES: LashService[] = [
     description:
       'Intensidade máxima com abertura central e volume extremo. O olhar mais profundo e dramático do catálogo, para quem quer ser notada.',
     benefits: ['Intensidade máxima', 'Volume extremo', 'O mais dramático do catálogo'],
-    applicationPrice: 85,
+    applicationPrice: 95,
     maintenancePrice: 75,
     durationLabel: '3h:30 a 5h',
     image: megaArabe,
