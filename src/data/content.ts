@@ -9,6 +9,7 @@ import megaBrasileiro from '../assets/images/mega-brasileiro.jpeg'
 import megaFox from '../assets/images/mega-fox.jpeg'
 import megaArabe from '../assets/images/mega-arabe.jpeg'
 import aurora from '../assets/images/aurora.png'
+import glamour from '../assets/images/glamour.png'
 
 export const SITE = {
   name: 'Sophia Ellen',
@@ -126,12 +127,23 @@ export const SERVICES: LashService[] = [
     durationLabel: '3h:30 a 5h',
     image: megaArabe,
   },
+  {
+    id: 'volume-glamour',
+    name: 'Volume Glamour',
+    description:
+      'Um olhar intenso e sofisticado, com curvatura marcante que valoriza os olhos e entrega definição e presença na medida certa.',
+    benefits: ['Olhar mais aberto e intenso', 'Cílios definidos e marcantes', 'Efeito elegante e sofisticado'],
+    applicationPrice: 80,
+    maintenancePrice: 65,
+    durationLabel: '2h a 3:30h',
+    image: glamour, 
+  }
 ];
 
 export const STATS: StatItem[] = [
   { id: 'clientes', value: '100%', label: 'Resultados que encantam' },
   { id: 'avaliacao', value: '5.0', label: 'Avaliação média' },
-  { id: 'tecnicas', value: '9', label: 'Técnicas disponíveis' },
+  { id: 'tecnicas', value: '10', label: 'Técnicas disponíveis' },
   { id: 'satisfacao', value: '100%', label: 'Atendimento com hora marcada' },
 ];
 
