@@ -8,6 +8,7 @@ import megaBrasileiro from '../assets/images/mega-brasileiro.jpeg'
 /*import megaEgipcio from '../assets/images/mega-egipcio.jpeg'*/
 import megaFox from '../assets/images/mega-fox.jpeg'
 import megaArabe from '../assets/images/mega-arabe.jpeg'
+import aurora from '../assets/images/aurora.png'
 
 export const SITE = {
   name: 'Sophia Ellen',
@@ -232,4 +233,18 @@ export const POLICIES = [
   'Antes do procedimento, compareça sem rímel, maquiagem ou produtos nos cílios, para garantir o melhor resultado',
   'Não é realizada manutenção em cima do serviço de outra profissional',
   'Atendimento somente com marcação de horário',
+];
+
+
+// Volumes gringos — adicione aqui os novos serviços (ex: Volume Russo, Volume Fantasia...)
+export const GRINGO_SERVICES: LashService[] = [
+  {
+    id: 'aurora',
+    name: ' Volume Aurora',
+    description: 'Um efeito marcante e elegante, com curvatura acentuada que realça o olhar, trazendo intensidade, definição e poder sem perder a delicadeza.',
+    benefits: ['Volume Extremo sem Pesar', 'Curvatura Perfeita', 'Olhar Expressivo 24 horas por dia'],    applicationPrice: 85,
+    maintenancePrice: 65,
+    durationLabel: '2h a 3h',
+    image: aurora,
+  }
 ];

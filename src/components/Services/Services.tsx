@@ -1,24 +1,27 @@
+import type { ReactNode } from 'react';
 import SectionHeading from '../common/SectionHeading';
 import ServiceCard from './ServiceCard';
-import { SERVICES } from '../../data/content';
+import type { LashService } from '../../data/types';
 import styles from './Services.module.css';
 
-const Services = () => {
+interface ServicesProps {
+  id: string;
+  eyebrow: string;
+  title: ReactNode;
+  description: string;
+  services: LashService[];
+}
+
+const Services = ({ id, eyebrow, title, description, services }: ServicesProps) => {
+  if (services.length === 0) return null;
+
   return (
-    <section id="servicos" className={styles.section}>
+    <section id={id} className={styles.section}>
       <div className="container">
-        <SectionHeading
-          eyebrow="Serviços"
-          title={
-            <>
-              Técnicas para <em>cada estilo de olhar</em>
-            </>
-          }
-          description="Do clássico ao mais intenso — cada técnica é escolhida para valorizar a sua beleza natural."
-        />
+        <SectionHeading eyebrow={eyebrow} title={title} description={description} />
 
         <div className={styles.grid}>
-          {SERVICES.map((service, i) => (
+          {services.map((service, i) => (
             <ServiceCard key={service.id} service={service} index={i} />
           ))}
         </div>
