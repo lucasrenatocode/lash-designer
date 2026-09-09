@@ -290,8 +290,8 @@ export const GRINGO_SERVICES: LashService[] = [
     description:
       'Um efeito sofisticado e marcante, com fios mais definidos que criam a aparência de um delineado sutil, realçando o olhar com elegância e intensida',
     benefits: ['Efeito de delineado delicado', 'Olhar mais definido e marcante', 'Acabamento sofisticado e elegante'],
-    applicationPrice: 100,
-    maintenancePrice: 80,
+    applicationPrice: 95,
+    maintenancePrice: 75,
     durationLabel: '3h a 4h',
     image: delineado, 
   },
