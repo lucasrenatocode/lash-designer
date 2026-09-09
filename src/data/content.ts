@@ -10,6 +10,9 @@ import megaFox from '../assets/images/mega-fox.jpeg'
 import megaArabe from '../assets/images/mega-arabe.jpeg'
 import aurora from '../assets/images/aurora.png'
 import glamour from '../assets/images/glamour.png'
+import wispy from '../assets/images/wispy.webp'
+import cisne from '../assets/images/cisne.webp'
+import delineado from '../assets/images/efeito delineado.webp'
 
 export const SITE = {
   name: 'Sophia Ellen',
@@ -137,7 +140,7 @@ export const SERVICES: LashService[] = [
     maintenancePrice: 65,
     durationLabel: '2h a 3:30h',
     image: glamour, 
-  }
+  },
 ];
 
 export const STATS: StatItem[] = [
@@ -258,5 +261,38 @@ export const GRINGO_SERVICES: LashService[] = [
     maintenancePrice: 65,
     durationLabel: '2h a 3h',
     image: aurora,
-  }
+  },
+  {
+    id: 'volume-wispy',
+    name: 'Volume Wispy',
+    description:
+      'Um olhar intenso e sofisticado, com curvatura marcante que realça os olhos e proporciona definição e presença na medida certa.',
+    benefits: ['Olhar mais intenso e definido', 'Cílios curvados e marcantes', 'Efeito sofisticado e elegante'],
+    applicationPrice: 100,
+    maintenancePrice: 80,
+    durationLabel: '3h a 4h',
+    image: wispy, 
+  },
+  {
+    id: 'volume-cisne',
+    name: 'Volume Cisne',
+    description:
+      'Um efeito delicado e sofisticado, com curvatura que alonga e destaca os cílios, criando um olhar mais expressivo e encantador.',
+    benefits: ['Olhar mais expressivo e alongado', 'Cílios destacados e delicados', 'Acabamento leve e sofisticado'],
+    applicationPrice: 100,
+    maintenancePrice: 80,
+    durationLabel: '3h a 4h',
+    image: cisne, 
+  },
+  {
+    id: 'volume-efeito-delineado',
+    name: 'Volume Efeito Delineado',
+    description:
+      'Um efeito sofisticado e marcante, com fios mais definidos que criam a aparência de um delineado sutil, realçando o olhar com elegância e intensida',
+    benefits: ['Efeito de delineado delicado', 'Olhar mais definido e marcante', 'Acabamento sofisticado e elegante'],
+    applicationPrice: 100,
+    maintenancePrice: 80,
+    durationLabel: '3h a 4h',
+    image: delineado, 
+  },
 ];
