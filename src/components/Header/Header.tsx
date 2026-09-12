@@ -7,7 +7,6 @@ import { useWhatsApp } from '../../hooks/useWhatsApp';
 import styles from './Header.module.css';
 
 const NAV_LINKS = [
-  { label: 'Sobre', href: '#sobre' },
   { label: 'Serviços', href: '#servicos' },
   { label: 'Depoimentos', href: '#depoimentos' },
   { label: 'FAQ', href: '#faq' },
