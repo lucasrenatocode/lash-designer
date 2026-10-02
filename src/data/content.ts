@@ -58,8 +58,8 @@ export const SERVICES: LashService[] = [
     description:
       'A sofisticação em cada fio. Aplicação delicada e precisa com acabamento premium que entrega naturalidade e elegância ao mesmo tempo.',
     benefits: ['Acabamento premium', 'Aplicação delicada', 'Naturalidade e elegância'],
-    applicationPrice: 70,
-    maintenancePrice: 55,
+    applicationPrice: 80,
+    maintenancePrice: 65,
     durationLabel: '2:30h a 3h',
     image: luxo,
   },
@@ -146,7 +146,7 @@ export const SERVICES: LashService[] = [
 export const STATS: StatItem[] = [
   { id: 'clientes', value: '100%', label: 'Resultados que encantam' },
   { id: 'avaliacao', value: '5.0', label: 'Avaliação média' },
-  { id: 'tecnicas', value: '10', label: 'Técnicas disponíveis' },
+  { id: 'tecnicas', value: '10+', label: 'Técnicas disponíveis' },
   { id: 'satisfacao', value: '100%', label: 'Atendimento com hora marcada' },
 ];
 

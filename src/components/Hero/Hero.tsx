@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
             <div className={styles.divider} />
             <div className={styles.trustItem}>
-              <strong>10 técnicas</strong>
+              <strong>10+ técnicas</strong>
               <span>à disposição</span>
             </div>
           </motion.div>
