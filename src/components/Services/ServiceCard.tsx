@@ -57,7 +57,8 @@ const ServiceCard = ({ service, index }: ServiceCardProps) => {
           icon={<FaWhatsapp />}
           className={styles.cardCta}
         >
-          Agendar esse serviço
+          <span className={styles.ctaFull}>Agendar esse serviço</span>
+          <span className={styles.ctaShort}>Agendar</span>
         </Button>
       </div>
     </motion.article>
