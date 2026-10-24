@@ -48,7 +48,6 @@
   font-family: var(--font-display);
   font-size: 1.3rem;
   color: var(--color-ink);
-  margin-bottom: var(--space-2xs);
   flex-wrap: wrap;
 }
 
@@ -62,25 +61,6 @@
   color: #fff;
   padding: 3px 10px;
   border-radius: var(--radius-pill);
-}
-
-.rowBenefits {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-}
-
-.rowBenefits li {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.82rem;
-  color: var(--color-ink-soft);
-}
-
-.rowBenefits svg {
-  color: var(--color-success);
-  flex-shrink: 0;
 }
 
 .rowPrices {

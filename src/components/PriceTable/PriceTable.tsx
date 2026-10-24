@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { HiCheck } from 'react-icons/hi2';
 import SectionHeading from '../common/SectionHeading';
 import { SERVICES } from '../../data/content';
 import styles from './PriceTable.module.css';
@@ -35,13 +34,6 @@ const PriceTable = () => {
                   {service.name}
                   {service.featured && <span className={styles.tag}>Mais procurado</span>}
                 </div>
-                <ul className={styles.rowBenefits}>
-                  {service.benefits.map((b) => (
-                    <li key={b}>
-                      <HiCheck /> {b}
-                    </li>
-                  ))}
-                </ul>
               </div>
 
               <div className={styles.rowPrices}>
