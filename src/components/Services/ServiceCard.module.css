@@ -83,34 +83,14 @@
   white-space: nowrap;
 }
 
+/* flex: 1 empurra preços e botão para o fim do card,
+   mantendo todos alinhados mesmo com descrições de tamanhos diferentes */
 .description {
   font-size: 0.9rem;
   color: var(--color-ink-soft);
   line-height: 1.6;
   margin-bottom: var(--space-2xs);
-}
-
-.benefits {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: var(--space-sm);
   flex: 1;
-}
-
-.benefits li {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  font-size: 0.84rem;
-  color: var(--color-ink-soft);
-}
-
-.benefits svg {
-  color: var(--color-success);
-  flex-shrink: 0;
-  margin-top: 2px;
-  font-size: 0.95rem;
 }
 
 .priceRow {
@@ -145,4 +125,64 @@
 .cardCta {
   width: 100%;
   justify-content: center;
+}
+
+/* ---------- Mobile: cards compactos para caber 2 por linha ---------- */
+@media (max-width: 767px) {
+  .badge {
+    top: 6px;
+    right: 6px;
+    font-size: 0.58rem;
+    padding: 4px 8px;
+  }
+
+  .imageWrap {
+    aspect-ratio: 4 / 3;
+  }
+
+  .body {
+    padding: 0.75rem;
+    gap: 0.25rem;
+  }
+
+  .headRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .name {
+    font-size: 0.95rem;
+    line-height: 1.2;
+  }
+
+  .duration {
+    font-size: 0.68rem;
+  }
+
+  .description {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .priceRow {
+    gap: 0.35rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .priceTag {
+    padding: 0.3rem 0.25rem;
+  }
+
+  .priceTag span {
+    font-size: 0.55rem;
+  }
+
+  .priceTag strong {
+    font-size: 1rem;
+  }
 }

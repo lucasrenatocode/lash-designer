@@ -5,7 +5,6 @@ import luxo from '../assets/images/luxo.jpeg'
 import arabe from '../assets/images/arabe.jpeg'
 import fox from '../assets/images/fox.jpeg'
 import megaBrasileiro from '../assets/images/mega-brasileiro.jpeg'
-/*import megaEgipcio from '../assets/images/mega-egipcio.jpeg'*/
 import megaFox from '../assets/images/mega-fox.jpeg'
 import megaArabe from '../assets/images/mega-arabe.jpeg'
 import aurora from '../assets/images/aurora.png'
@@ -35,9 +34,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Brasileiro',
     description:
       'Técnica clássica que proporciona cílios cheios e marcantes, respeitando a estrutura dos fios naturais para um resultado duradouro e harmonioso.',
-    benefits: ['Resultado cheio e natural', 'Respeita os fios naturais', 'Efeito duradouro'],
-    applicationPrice: 70,
-    maintenancePrice: 50,
+    applicationPrice: 85,
+    maintenancePrice: 65,
     durationLabel: '2:30h a 3h',
     image: brasileiro,
   },
@@ -46,9 +44,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Egípcio',
     description:
       'Olhar marcante e delineado, inspirado na beleza egípcia. Cílios com efeito dramático e alongado, valorizando o contorno dos olhos.',
-    benefits: ['Efeito dramático', 'Alongamento elegante', 'Valoriza o contorno dos olhos'],
-    applicationPrice: 70,
-    maintenancePrice: 50,
+    applicationPrice: 85,
+    maintenancePrice: 65,
     durationLabel: '2:30h a 3h',
     image: egipcio,
   },
@@ -57,9 +54,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Luxo',
     description:
       'A sofisticação em cada fio. Aplicação delicada e precisa com acabamento premium que entrega naturalidade e elegância ao mesmo tempo.',
-    benefits: ['Acabamento premium', 'Aplicação delicada', 'Naturalidade e elegância'],
-    applicationPrice: 80,
-    maintenancePrice: 65,
+    applicationPrice: 95,
+    maintenancePrice: 75,
     durationLabel: '2:30h a 3h',
     image: luxo,
   },
@@ -68,9 +64,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Árabe',
     description:
       'Técnica de volume intenso com abertura no centro, criando um olhar profundo e sedutor. Perfeito para quem deseja um resultado dramático.',
-    benefits: ['Abertura central marcante', 'Olhar profundo e sedutor', 'Resultado dramático'],
-    applicationPrice: 75,
-    maintenancePrice: 55,
+    applicationPrice: 90,
+    maintenancePrice: 70,
     durationLabel: '2h30 a 3h',
     image: arabe,
   },
@@ -79,9 +74,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Fox',
     description:
       'Efeito olho de raposa com concentração de volume na ponta externa, criando um olhar elevado, sensual e moderno.',
-    benefits: ['Efeito "olho de raposa"', 'Olhar alongado e elevado', 'Tendência moderna'],
-    applicationPrice: 85,
-    maintenancePrice: 65,
+    applicationPrice: 100,
+    maintenancePrice: 80,
     durationLabel: '2h30 a 3h',
     featured: true,
     image: fox,
@@ -91,31 +85,18 @@ export const SERVICES: LashService[] = [
     name: 'Volume Mega Brasileiro',
     description:
       'O brasileiro levado ao máximo. Volume abundante e denso para um olhar impactante, com acabamento impecável fio a fio.',
-    benefits: ['Volume máximo', 'Acabamento fio a fio', 'Olhar impactante'],
-    applicationPrice: 80,
-    maintenancePrice: 65,
+    applicationPrice: 110,
+    maintenancePrice: 85,
     durationLabel: '3h a 4h:30h',
     image: megaBrasileiro,
   },
-  /*{ ////////////////ESSE CARD DESATIVADOO TEMPORARIAMENTE//////////////
-    id: 'volume-mega-egipcio',
-    name: 'Volume Mega Egípcio',
-    description:
-      'A máxima expressão do olhar egípcio. Alongamento e volume intenso para um efeito irresistível que define e transforma o olhar.',
-    benefits: ['Efeito irresistível', 'Alongamento intenso', 'Olhar transformado'],
-    applicationPrice: 80,
-    maintenancePrice: 65,
-    durationLabel: '3h a 4h:30',
-    image: megaEgipcio,
-  },*/
   {
     id: 'volume-mega-fox',
     name: 'Volume Mega Fox',
     description:
       'A versão mais intensa do fox. Volume máximo na ponta externa para um olhar arrasador, alongado e cheio de personalidade.',
-    benefits: ['Volume máximo na ponta externa', 'Olhar arrasador', 'Personalidade única'],
-    applicationPrice: 100,
-    maintenancePrice: 75,
+    applicationPrice: 110,
+    maintenancePrice: 90,
     durationLabel: '3h a 5h',
     image: megaFox,
   },
@@ -124,9 +105,8 @@ export const SERVICES: LashService[] = [
     name: 'Volume Mega Árabe',
     description:
       'Intensidade máxima com abertura central e volume extremo. O olhar mais profundo e dramático do catálogo, para quem quer ser notada.',
-    benefits: ['Intensidade máxima', 'Volume extremo', 'O mais dramático do catálogo'],
-    applicationPrice: 95,
-    maintenancePrice: 75,
+    applicationPrice: 110,
+    maintenancePrice: 85,
     durationLabel: '3h:30 a 5h',
     image: megaArabe,
   },
@@ -135,11 +115,10 @@ export const SERVICES: LashService[] = [
     name: 'Volume Glamour',
     description:
       'Um olhar intenso e sofisticado, com curvatura marcante que valoriza os olhos e entrega definição e presença na medida certa.',
-    benefits: ['Olhar mais aberto e intenso', 'Cílios definidos e marcantes', 'Efeito elegante e sofisticado'],
-    applicationPrice: 80,
-    maintenancePrice: 65,
+    applicationPrice: 95,
+    maintenancePrice: 75,
     durationLabel: '2h a 3:30h',
-    image: glamour, 
+    image: glamour,
   },
 ];
 
@@ -255,10 +234,10 @@ export const POLICIES = [
 export const GRINGO_SERVICES: LashService[] = [
   {
     id: 'aurora',
-    name: ' Volume Aurora',
+    name: 'Volume Aurora',
     description: 'Um efeito marcante e elegante, com curvatura acentuada que realça o olhar, trazendo intensidade, definição e poder sem perder a delicadeza.',
-    benefits: ['Volume Extremo sem Pesar', 'Curvatura Perfeita', 'Olhar Expressivo 24 horas por dia'],    applicationPrice: 85,
-    maintenancePrice: 65,
+    applicationPrice: 100,
+    maintenancePrice: 80,
     durationLabel: '2h a 3h',
     image: aurora,
   },
@@ -267,32 +246,29 @@ export const GRINGO_SERVICES: LashService[] = [
     name: 'Volume Wispy',
     description:
       'Um olhar intenso e sofisticado, com curvatura marcante que realça os olhos e proporciona definição e presença na medida certa.',
-    benefits: ['Olhar mais intenso e definido', 'Cílios curvados e marcantes', 'Efeito sofisticado e elegante'],
-    applicationPrice: 100,
-    maintenancePrice: 80,
+    applicationPrice: 110,
+    maintenancePrice: 85,
     durationLabel: '3h a 4h',
-    image: wispy, 
+    image: wispy,
   },
   {
     id: 'volume-cisne',
     name: 'Volume Cisne',
     description:
       'Um efeito delicado e sofisticado, com curvatura que alonga e destaca os cílios, criando um olhar mais expressivo e encantador.',
-    benefits: ['Olhar mais expressivo e alongado', 'Cílios destacados e delicados', 'Acabamento leve e sofisticado'],
-    applicationPrice: 100,
-    maintenancePrice: 80,
+    applicationPrice: 110,
+    maintenancePrice: 85,
     durationLabel: '3h a 4h',
-    image: cisne, 
+    image: cisne,
   },
   {
     id: 'volume-efeito-delineado',
     name: 'Volume Efeito Delineado',
     description:
-      'Um efeito sofisticado e marcante, com fios mais definidos que criam a aparência de um delineado sutil, realçando o olhar com elegância e intensida',
-    benefits: ['Efeito de delineado delicado', 'Olhar mais definido e marcante', 'Acabamento sofisticado e elegante'],
-    applicationPrice: 95,
-    maintenancePrice: 75,
+      'Um efeito sofisticado e marcante, com fios mais definidos que criam a aparência de um delineado sutil, realçando o olhar com elegância e intensidade.',
+    applicationPrice: 100,
+    maintenancePrice: 80,
     durationLabel: '3h a 4h',
-    image: delineado, 
+    image: delineado,
   },
 ];

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaWhatsapp, FaStar } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
 import { HiOutlineSparkles } from 'react-icons/hi2';
 import Button from '../common/Button';
 import { useWhatsApp } from '../../hooks/useWhatsApp';
@@ -35,28 +35,7 @@ const Hero = () => {
             que valorizam a sua beleza — do Volume Brasileiro ao Mega Fox.
           </motion.p>
 
-          <motion.div className={styles.trustRow} {...fadeUp(0.3)}>
-            <div className={styles.trustItem}>
-              <strong>100%</strong>
-              <span>Resultados que encantam</span>
-            </div>
-            <div className={styles.divider} />
-            <div className={styles.trustItem}>
-              <div className={styles.stars}>
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <FaStar key={i} />
-                ))}
-              </div>
-              <span>avaliação 5.0</span>
-            </div>
-            <div className={styles.divider} />
-            <div className={styles.trustItem}>
-              <strong>10+ técnicas</strong>
-              <span>à disposição</span>
-            </div>
-          </motion.div>
-
-          <motion.div className={styles.ctaRow} {...fadeUp(0.4)}>
+          <motion.div className={styles.ctaRow} {...fadeUp(0.3)}>
             <Button href="#contato" variant="primary" size="lg">
               Agendar Horário
             </Button>

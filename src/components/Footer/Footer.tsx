@@ -13,7 +13,6 @@ const Footer = () => {
       <div className={`container ${styles.grid}`}>
         <div className={styles.brandCol}>
           <span className={styles.logo}>{SITE.name}</span>
-          <p className={styles.tagline}>{SITE.role} — olhares marcantes com técnica e cuidado.</p>
           <div className={styles.socials}>
             <a href={getLink()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <FaWhatsapp />

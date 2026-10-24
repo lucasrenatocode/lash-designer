@@ -24,13 +24,6 @@
   color: var(--color-gold-pale);
 }
 
-.tagline {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.6);
-  max-width: 280px;
-  line-height: 1.6;
-}
-
 .socials {
   display: flex;
   gap: var(--space-sm);

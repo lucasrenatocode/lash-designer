@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { HiCheck, HiOutlineClock } from 'react-icons/hi2';
+import { HiOutlineClock } from 'react-icons/hi2';
 import { FaWhatsapp } from 'react-icons/fa';
 import type { LashService } from '../../data/types';
 import Button from '../common/Button';
@@ -38,15 +38,6 @@ const ServiceCard = ({ service, index }: ServiceCardProps) => {
         </div>
 
         <p className={styles.description}>{service.description}</p>
-
-        <ul className={styles.benefits}>
-          {service.benefits.map((b) => (
-            <li key={b}>
-              <HiCheck />
-              <span>{b}</span>
-            </li>
-          ))}
-        </ul>
 
         <div className={styles.priceRow}>
           <div className={styles.priceTag}>

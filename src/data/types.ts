@@ -2,7 +2,7 @@ export interface LashService {
   id: string;
   name: string;
   description: string;
-  benefits: string[];
+
   applicationPrice: number;
   maintenancePrice: number;
   durationLabel: string;

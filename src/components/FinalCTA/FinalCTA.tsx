@@ -27,10 +27,6 @@ const FinalCTA = () => {
             Agende agora e descubra como um olhar bem valorizado pode{' '}
             <em>transformar sua autoestima</em>
           </h2>
-          <p className={styles.description}>
-            Atendimento exclusivo com hora marcada. Escolha a técnica ideal
-            para você e garanta seu horário com a Sophia.
-          </p>
 
           <div className={styles.ctaRow}>
             <Button href={getLink()} variant="whatsapp" size="lg" icon={<FaWhatsapp />}>
@@ -38,11 +34,7 @@ const FinalCTA = () => {
             </Button>
           </div>
 
-          <ul className={styles.reassurance}>
-            <li>Atendimento somente com hora marcada</li>
-            <li>Confirmação com 30% de entrada</li>
-            <li>Materiais higienizados e protocolo de segurança</li>
-          </ul>
+  
         </motion.div>
 
         <motion.div
